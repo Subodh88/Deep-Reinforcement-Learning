@@ -35,5 +35,5 @@ The task is episodic, and in order to solve the environment, the agent must get 
 
 # Instructions
 
-Follow the instructions in <code>Navigation.ipynb</code> to implement and train the agent. The implementation uses Double Deep Q-Learning approach. I.e., there are two neural networks one for selecting the action and the other for evaluating the action.
+Follow the instructions in <code>Navigation_Final.ipynb</code> to implement and train the agent. The implementation uses Double Deep Q-Learning approach. I.e., there are two neural networks one for selecting the action and the other for evaluating the action.
 The code has three important modules (classes): <code>QNetwork, Agent, and ReplayBuffer</code>. The <code>QNetwork</code> class contains the neural network structure using Pytorch. The <code>Agent</code> class contains necessary procedues to perform action selection and optimization. Finally, <code>ReplayBuffer</code> class contains procedure to store the transtions (state, next_state, reward, action, episode_termination_indicator) and sampling of such transtions.
